@@ -20,7 +20,7 @@ public class ArrayUtility {
         for (int i = 0; i < array.length; i++) average += array[i];
 
         int temp = (int) (average / array.length * 100.0);
-        return (double) (temp / 100.0);
+        return temp / 100.0;
     }
 
     public static int minimum(int[] array) {
