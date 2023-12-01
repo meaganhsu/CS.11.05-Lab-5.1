@@ -3,7 +3,7 @@ public class ArrayUtility {
 
     public static void print(int[] array) {
         for (int i : array) {
-            System.out.println(i + ", ");
+            System.out.print(i + ", ");
         }
     }
 
